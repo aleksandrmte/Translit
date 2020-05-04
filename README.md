@@ -1,3 +1,8 @@
 # Translit for russian language
+
 Usage:
-var result = new Core.Translit(new RussianLanguage()).GetString("Программирование");
+```
+var translit = new Translit(new RussianLanguage());
+var result = translit.GetString("Программирование");
+```
+
